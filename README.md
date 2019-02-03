@@ -1,5 +1,6 @@
 # dansyapp
-Die Aufgabe für das Projekt ist es einen Service Broker zu bauen, welche gemäß der Open Service Broker API das Deployment von Backend Services via Helm auf einem Kubernetes Cluster triggered.
+
+The task for the project is to build a service broker which, according to the Open Service Broker API, triggers the deployment of backend services via helmets on a Kubernetes cluster.
 
 # Getting start
   * <b>Setting Up Your Development Environment:</b>
