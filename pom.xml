@@ -15,6 +15,36 @@
   </properties>
 
   <dependencies>
+  
+  		<!-- Add Spring MVC and REST support -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>5.0.5.RELEASE</version>
+		</dependency>
+		
+		<!-- Add Jackson for JSON converters -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.9.5</version>
+		</dependency>
+
+		<!-- Add Servlet support for 
+			 Spring's AbstractAnnotationConfigDispatcherServletInitializer -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+		</dependency>
+		
+	 <!-- Ghislain: Add this for removing x in index.jsp or to use pageContext.request.contextPathin index.jsp -->
+		<dependency>
+			<groupId>javax.servlet.jsp</groupId>
+			<artifactId>javax.servlet.jsp-api</artifactId>
+			<version>2.3.1</version>
+		</dependency>
+		
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
